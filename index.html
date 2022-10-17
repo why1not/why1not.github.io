@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" type="text/css" href="stule_big.css"> -->
+	<link rel="stylesheet" type="text/css" href="stule_low.css">
+	<link rel="stylesheet" type="text/css" href="" id="abaptive">
+	<title>af</title>
+</head>
+<body>
+	<div class="allContent">
+		<div class="headPanel">
+			<a class="HomeButon">
+				<label class="HomeButtonText lagre_text_logo">
+					Cправочник
+				</label>
+			</a>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="panel">
+			<div id="child_panel" class="child_pan">
+				<img src="icon_spisok.png" class="varButton selec" onclick="setTwo()" >
+			</div>
+
+			<div id="sub_child_panel2" class="child_pan">
+				<select class="case caseMain selec" id="spisokMain" onchange="getInfo()">
+					<option value="none" selected>Не выбрано</option>
+
+					<optgroup label="От  А - я  A - W" id="inneredZone">
+				
+					</optgroup>
+				</select>
+			</div>
+
+			
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="footerPanel" id="footerPanel">
+			<div class="fotterHead">
+				<div class="statName">
+					<label class="statName"></label>
+				</div>
+				<div class="lagre_text_logo statNameMain">
+					<label id="state2" class="lagre_text_logo">Barret M95</label>
+				</div>
+				<div class="statName">
+					<label class="lagre_text_logo"></label>
+					<select class="case caselow selec" id="spisokType" onchange="changeType()">
+						<option value="stok" selected>Сток</option>
+						<option value="full">Фул</option>
+					</select>
+				</div>
+			</div>
+
+			
+			<div class="MainInfo">
+				<div class="ImageFrame">
+					<img class="iconWeapon" src="" id="itemImage">
+				</div>
+				<div class="statInfoGroup" id="stokWindow">
+					<label>Урон: <span id="state6"></span> ед.</label>
+					<label>Темп: <span id="state12"></span> ед.</label>
+					<label>Обойма: <span id="state8"></span> шт.</label>
+					<label>Запас: <span id="state10"></span> шт.</label>
+					<div class="btnOtherInfo selec" id="btnotherInfos"  onclick="openOtherInfo()">
+						▼ Подробная информация ▼
+					</div>
+				</div>
+				<div class="statInfoGroup" id="fullWindow" style="display: none;">
+					<label>Урон: <span id="state7"></span> ед.</label>
+					<label>Темп: <span id="state12f"></span> ед.</label>
+					<label>Обойма: <span id="state9"></span> шт.</label>
+					<label>Запас: <span id="state11"></span> шт.</label>
+					<div class="btnOtherInfo selec" id="btnotherInfof"  onclick="openOtherInfo()">
+						▼ Подробная информация ▼
+					</div>
+				</div>
+			</div>
+
+
+
+
+			
+			<div class="OtherInfo" id="otherInfo">
+				<div class="title selec" onclick="hideOtherInfo()">▲ Подробная информация ▲</div>
+				<div class="statInfoGroup">
+					<label>Серия: <span id="state3"></span></label>
+					<label>Тип: <span id="state4"></span></label>
+					<label>Тип урона: <span id="state5"></span></label>
+				</div>
+				<div class="statInfoGroup">
+					<label>Дальность: <span id="state13"></span> бл.</label>
+					<label>Перезарядка: <span id="state14"></span> сек.</label>
+					<label>Цена: <span id="state15"></span> </label>
+					
+				</div>
+				<div class="statInfoGroup">
+					<label>Макс. Уровень Урона: <span id="state16"></span></label>
+					<label>Макс. Уровень Обоймы: <span id="state17"></span></label>
+					<label>Макс. Уровень Запаса: <span id="state18"></span></label>
+				</div>
+			</div>
+			
+		</div>
+
+
+
+
+		<div class="settingsPanel">
+			что то
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="footerPanel" id="footerPanel2">
+			<div class="fotterHead">
+				<div class="statName">
+					<label class="statName"></label>
+				</div>
+				<div class="lagre_text_logo statNameMain">
+					<label id="state2" class="lagre_text_logo">О Справочнике:</label>
+				</div>
+				<div class="statName">
+					<label class="statName"></label>
+				</div>
+			</div>
+
+		
+			<div class="MainInfo" style="text-align: center;">
+				Это - Справочник по блокаде (classic).<br>
+				<br>
+				Выбери в верху то, что хочешь найти<br>
+				->> Техника | Оружие | Скины <<-<br>
+				А после, в списке выбери то что необходимо<br>
+				<br>
+				<br>
+				Техника - не загружена<br>
+				Скины - в процессе<br>
+				Сравнение - в процессе<br>
+				Время убийства - в процессе<br>
+				<br>
+				<br>
+				Данный справочник находиться на тестировании;<br>
+				Если вы нашли ошибку сообщите (Вконтакте) - id:  why_of<br>
+			</div>
+		
+		</div>
+	</div>
+
+	
+<script src="brain.js"></script>
+
+<script src="injectcss.js"></script>
+<script src="seach1.js"></script>
+</body>
+</html>
