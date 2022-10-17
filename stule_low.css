@@ -1,0 +1,251 @@
+body{
+	color: mintcream;
+	font-family: "b3d";
+	letter-spacing: 0.8px;
+	word-spacing: 0px;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+@font-face {
+	font-family: 'b3d'; 
+	src: url("b3d.ttf"); 
+}
+.allContent{
+	display: flex;
+	background-image: url("https://spravochnick.do.am/background.jpg");
+	background-size: cover;
+	background-position: center;
+	
+		
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+
+.headPanel{
+	display: flex;
+	background-color: #171614;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+    justify-content: center;
+}
+
+
+.settingsPanel{
+	position: absolute;
+	background-color: #171614;
+	display: none;
+	border-radius: 20px;
+	
+	border-style: solid;
+	border-color: rgba(17, 17, 15, 0.626);
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px #4e4e49; 
+
+}
+
+.statNameMain{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.statName{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.panel{
+	display: flex;
+	background-color: #171614;
+	border: 0px;
+	border-radius: 15px;
+
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#child_panel{
+	display: flex;
+	
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	
+    align-items: center;
+}
+#sub_child_panel{
+	display: none;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	
+    align-items: center;
+}
+#sub_child_panel2{
+	display: none;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	
+    align-items: center;
+}
+#sub_child_panel3{
+	display: none;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	
+    align-items: center;
+}
+
+.varButton{
+	background-color: #1e1d1a;
+}
+.case{
+	background-color: rgba(30, 29, 26, 0.4);
+	border-style: solid;
+	border-color: rgba(17, 17, 15, 0.626);;
+	border-radius: 5px;
+	outline: none;
+	color: mintcream;
+	font-family: "b3d";
+	letter-spacing: 0.8px;
+	word-spacing: 0px;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	
+	font-size: 90%;
+}
+optgroup{
+	background-color: rgba(30, 29, 26, 0.7);
+	outline: none;
+	
+	font-weight: 100;
+}
+
+option{
+	background-color: rgba(30, 29, 26, 0.5);
+	outline: none;
+	font-size: 95%;
+	font-weight: 200;
+}
+
+
+
+.footerPanel{
+	background-color: rgba(23, 22, 20, 1);
+	border-radius: 10px;
+
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+	
+    justify-content: space-evenly;
+}
+#footerPanel2{
+	display: flex;
+}
+#footerPanel{
+	display: none;
+}
+
+.selec{
+	cursor: pointer;
+}
+
+
+.btnOtherInfo{
+	background-color: rgba(30, 29, 26, 0.4);
+	text-align: center;
+	color: #4e4e49;
+	font-size: clamp(10px, 2vmin, 21px);
+}
+
+
+.title{
+	display: flex;
+	
+    flex-direction: row;
+    justify-content: center;
+
+	background-color: rgba(30, 29, 26, 0.4);
+}
+
+
+.HomeButon{
+	display: flex;
+	
+	justify-content: center;
+    align-items: center;
+}
+
+.varButton{
+	border-radius: 3.5px;
+	border: 4px;
+	border-color: #0f0f0d;
+	border-style: solid;
+	
+}
+.statInfoGroup{
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.statInfo{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+	
+    justify-content: space-evenly;
+}
+
+.statInfoGroup{
+	border-style: solid;
+	border-color: rgba(17, 17, 15, 0.626);
+	border-radius: 5px;
+
+	display: flex;
+
+	flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+	align-items: center;
+}
+.ImageFrame{
+	display: flex;
+	background-color: rgba(30, 29, 26, 0.4);
+	border-style: solid;
+	border-color: rgba(17, 17, 15, 0.626);;
+	border-radius: 5px;
+	justify-content: center;
+    align-items: stretch;
+}
+.OtherInfo{
+	display: none;
+
+	
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
